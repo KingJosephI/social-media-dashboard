@@ -1,7 +1,9 @@
 import React from "react";
 
 const OverviewTitle = () => {
-  return <div>OverviewTitle</div>;
+  return (
+    <h2 className="font-bold text-[24px] text-darkGray">Overview - Today</h2>
+  );
 };
 
 export default OverviewTitle;

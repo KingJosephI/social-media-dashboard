@@ -7,10 +7,11 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import FollowerCard from "./FollowerCard/FollowerCard";
+import { IoMdArrowDropdown } from "react-icons/io";
 
 const FollowerList = () => {
   return (
-    <div className="mx-auto grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+    <div className="mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-4">
       <FollowerCard
         socialMediaIcon={<FaFacebookSquare color="#178FF5" fontSize={"20px"} />}
         username={"@nathanf"}
@@ -42,9 +43,7 @@ const FollowerList = () => {
         username={"@realnathanf"}
         followers="11K"
         days={1099}
-        // borderColor="transparent"
         style={{
-          // borderColor: "transparent",
           borderImageSource:
             "linear-gradient(225deg, #DF4896 0%, #EE877E 50.91%, #FDC366 100%);",
           borderImageSlice: 1,
@@ -57,6 +56,7 @@ const FollowerList = () => {
         days={144}
         daysColor="#DC414C"
         borderColor="#DC414C"
+        arrowIcon={<IoMdArrowDropdown className="text-xl" />}
       />
     </div>
   );

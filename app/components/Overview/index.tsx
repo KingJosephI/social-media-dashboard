@@ -4,7 +4,7 @@ import OverviewList from "./OverviewList";
 
 const Overview = () => {
   return (
-    <section>
+    <section className="[&>*:first-child]:mb-6">
       <OverviewTitle />
       <OverviewList />
     </section>

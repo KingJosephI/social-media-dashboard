@@ -15,7 +15,11 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontSize: {
+        tiny: "1px",
+      },
       colors: {
+        black: "#1D1F29",
         gray: "#F1F3FA",
         darkGray: "#63687D",
         green: "#1EB589",
@@ -23,6 +27,12 @@ module.exports = {
         twitterBlue: "#1DA1F2",
         hoverGray: "#E1E4F0",
         red: "#DC414C",
+      },
+      screens: {
+        sm: "480px",
+        md: "768px",
+        lg: "976px",
+        xl: "1440px",
       },
     },
   },
