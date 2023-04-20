@@ -19,7 +19,7 @@ export const Facebook: Story = {
   args: {
     socialMediaIcon: <FaFacebookSquare color="178FF5" fontSize={"20px"} />,
     username: "@madras",
-    followers: 1987,
+    followers: "1987",
     days: 12,
   },
 };
@@ -28,7 +28,7 @@ export const Twitter: Story = {
   args: {
     socialMediaIcon: <FaTwitter color="178FF5" fontSize={"20px"} />,
     username: "@nathan",
-    followers: 1987,
+    followers: "1987",
     days: 12,
   },
 };
@@ -36,7 +36,7 @@ export const Instagram: Story = {
   args: {
     socialMediaIcon: <FaInstagram color="orange" fontSize={"20px"} />,
     username: "@nathan",
-    followers: 1987,
+    followers: "1987",
     days: 12,
   },
 };
@@ -45,7 +45,7 @@ export const Youtube: Story = {
   args: {
     socialMediaIcon: <FaYoutube color="red" fontSize={"20px"} />,
     username: "@nathan",
-    followers: 1987,
+    followers: "1987",
     days: 12,
   },
 };
