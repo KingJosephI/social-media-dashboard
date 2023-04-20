@@ -4,7 +4,10 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}",
+    "./stories/*.stories.{js,ts,jsx,tsx}",
+    "./stories/**/*.stories.{js,ts,jsx,tsx}",
   ],
+
   theme: {
     extend: {
       backgroundImage: {
@@ -17,6 +20,7 @@ module.exports = {
         darkGray: "#63687D",
         green: "#1EB589",
         blue: "#178FF5",
+        hoverGray: "#E1E4F0",
       },
     },
   },

@@ -4,10 +4,10 @@ import { IoMdArrowDropup } from "react-icons/io";
 import { IconType } from "react-icons";
 
 interface IFollowerCard {
-  socialMediaIcon: React.ReactNode;
-  username: string;
-  followers: number;
-  days: number;
+  socialMediaIcon?: React.ReactNode;
+  username?: string;
+  followers?: number;
+  days?: number;
 }
 
 const FollowerCard = ({
@@ -17,7 +17,7 @@ const FollowerCard = ({
   days = 12,
 }: IFollowerCard) => {
   return (
-    <article className="max-w-[326px] border-t-[5px] border-blue bg-gray grid justify-center text-center py-6 rounded-[5px]">
+    <article className="max-w-[326px] border-t-[5px] border-blue bg-gray grid justify-center text-center py-6 rounded-[5px] hover:bg-hoverGray hover:cursor-pointer">
       <div className="flex items-center gap-2">
         {/* <FaFacebookSquare color="178FF5" fontSize={"20px"} /> */}
         {socialMediaIcon}
