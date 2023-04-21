@@ -13,7 +13,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="container mx-auto bg-white text-black dark:bg-black dark:text-white">
+      {/* <body className="container mx-auto bg-white text-black dark:bg-black dark:text-white"> */}
+      <body className=" bg-white text-black dark:bg-black dark:text-white">
         {children}
       </body>
     </html>

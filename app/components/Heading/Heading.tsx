@@ -3,7 +3,7 @@ import React from "react";
 import { ToggleSwitch } from "flowbite-react";
 
 const Header = () => {
-  const [theme, setTheme] = React.useState("light");
+  const [theme, setTheme] = React.useState("dark");
 
   React.useEffect(() => {
     if (theme === "dark") {
@@ -19,7 +19,7 @@ const Header = () => {
   };
 
   return (
-    <header className="pt-[20px]  px-[165px] text-[14px] text-darkGray font-bold flex flex-col w-full md:flex-row md:justify-between dark:text-blueIsh">
+    <header className="mx-auto flex flex-col w-full  pt-[20px] text-[14px] text-darkGray font-bold md:flex-row md:justify-between dark:text-blueIsh">
       <div className="border-b-2 border-b-darkGray pb-6 md:border-none">
         <h1 className="text-[24px] text-black dark:text-white">
           Social Media Dashboard

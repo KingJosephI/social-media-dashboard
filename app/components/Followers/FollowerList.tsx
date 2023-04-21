@@ -11,7 +11,9 @@ import { IoMdArrowDropdown } from "react-icons/io";
 
 const FollowerList = () => {
   return (
-    <div className="mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+    //  <div className="bg-green mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+
+    <div className="w-full grid gap-8 md:grid-cols-2 lg:grid-cols-4">
       <FollowerCard
         socialMediaIcon={<FaFacebookSquare color="#178FF5" fontSize={"20px"} />}
         username={"@nathanf"}
