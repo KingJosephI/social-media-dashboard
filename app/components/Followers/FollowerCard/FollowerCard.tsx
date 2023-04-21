@@ -28,19 +28,21 @@ const FollowerCard = ({
 }: IFollowerCard) => {
   return (
     <article
-      className={`min-w-[255px] border-t-[5px] bg-gray flex flex-col items-center py-6 rounded-[5px] hover:bg-hoverGray hover:cursor-pointer overflow-hidden`}
+      className={`min-w-[255px] border-t-[5px] bg-gray flex flex-col items-center py-6 rounded-[5px] hover:bg-hoverGray hover:cursor-pointer dark:bg-darkBlue dark:hover:bg-darkModeHover`}
       style={{ borderColor }}
       {...rest}
     >
       <div className="flex items-center gap-2 ">
         {socialMediaIcon}
-        <span className="font-bold text-darkGray text-[12px]">{username}</span>
+        <span className="font-bold text-darkGray text-[12px] dark:text-blueIsh">
+          {username}
+        </span>
       </div>
       <div className="pt-[28px] pb-[25px] text-center">
-        <h3 className="font-bold text-black text-[56px] pb-[9px] leading-[48px] -tracking-[2px]">
+        <h3 className="font-bold text-black dark:text-white text-[56px] pb-[9px] leading-[48px] -tracking-[2px]">
           {followers}
         </h3>
-        <p className="uppercase text-[12px] text-center tracking-[5px] text-darkGray">
+        <p className="uppercase text-[12px] text-center tracking-[5px] text-darkGray dark:text-blueIsh">
           Followers
         </p>
       </div>

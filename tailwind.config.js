@@ -7,7 +7,7 @@ module.exports = {
     "./stories/*.stories.{js,ts,jsx,tsx}",
     "./stories/**/*.stories.{js,ts,jsx,tsx}",
   ],
-
+  darkMode: "class",
   theme: {
     extend: {
       backgroundImage: {
@@ -24,9 +24,12 @@ module.exports = {
         darkGray: "#63687D",
         green: "#1EB589",
         blue: "#178FF5",
+        darkBlue: "#252B42",
         twitterBlue: "#1DA1F2",
         hoverGray: "#E1E4F0",
         red: "#DC414C",
+        darkModeHover: "#333A55",
+        blueIsh: "#8C98C6",
       },
       screens: {
         sm: "480px",
