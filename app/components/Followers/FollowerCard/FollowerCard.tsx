@@ -28,7 +28,7 @@ const FollowerCard = ({
 }: IFollowerCard) => {
   return (
     <article
-      className={`min-w-[255px] border-t-[5px] bg-gray flex flex-col items-center py-6 rounded-[5px] hover:bg-hoverGray hover:cursor-pointer dark:bg-darkBlue dark:hover:bg-darkModeHover`}
+      className={`border-t-[5px] bg-gray flex flex-col items-center py-6 rounded-[5px] hover:bg-hoverGray hover:cursor-pointer dark:bg-darkBlue dark:hover:bg-darkModeHover`}
       style={{ borderColor }}
       {...rest}
     >

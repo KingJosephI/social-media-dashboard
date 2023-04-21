@@ -19,7 +19,7 @@ const Header = () => {
   };
 
   return (
-    <header className="mx-auto flex flex-col w-full  pt-[20px] text-[14px] text-darkGray font-bold md:flex-row md:justify-between dark:text-blueIsh">
+    <header className="mx-auto flex flex-col w-full pt-[20px] text-[14px] text-darkGray font-bold md:flex-row md:justify-between dark:text-blueIsh">
       <div className="border-b-2 border-b-darkGray pb-6 md:border-none">
         <h1 className="text-[24px] text-black dark:text-white">
           Social Media Dashboard

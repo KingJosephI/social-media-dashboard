@@ -21,7 +21,7 @@ const OverviewCard = ({
   arrowIcon = <IoMdArrowDropup />,
 }: IOverviewCard) => {
   return (
-    <article className="min-w-[255px] p-6  grid gap-6 bg-gray hover:bg-hoverGray hover:cursor-pointer rounded-[5px] [&>*]:flex [&>*]:justify-between dark:bg-darkBlue dark:hover:bg-darkModeHover">
+    <article className="p-6 grid gap-6 bg-gray hover:bg-hoverGray hover:cursor-pointer rounded-[5px] [&>*]:flex [&>*]:justify-between dark:bg-darkBlue dark:hover:bg-darkModeHover">
       <div>
         <h3 className="text-[14px] text-darkGray font-bold dark:text-blueIsh">
           {title}
