@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { ToggleSwitch } from "flowbite-react";
 
 const Header = () => {
   const [theme, setTheme] = React.useState("light");
@@ -25,8 +26,16 @@ const Header = () => {
         </h1>
         <p>Total Followers: 23,004</p>
       </div>
-      <div className={`pt - 4`} onClick={handleDarkMode}>
-        <span>Dark Mode</span>
+
+      <div className={`pt-4 md:pt-0 flex gap-3`} onClick={handleDarkMode}>
+        <div>Dark Mode</div>
+        <div>
+          <ToggleSwitch
+            label=""
+            checked={theme === "dark" ? true : false}
+            onChange={handleDarkMode}
+          />
+        </div>
       </div>
     </header>
   );
